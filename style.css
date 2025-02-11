@@ -8,7 +8,9 @@
  body { 
    color: white;
    font-size: 18px;
+   font-family: Helvetica, sans-serif;
    background-color: black;
+   padding-top: 70px;
 }
 
 a {
@@ -20,13 +22,22 @@ ul {
   list-style-type: none;
 }
 
+fa-arrow-right{
+ color:white;
+ font-weight: normal;
+ font-size: 12px;
+}
 
 nav {
-    background-color: rgb(29, 28, 28);
-    height: 60px;
+    background-color: black; /* rgb(29, 28, 28); */
+    height: 90px;
     display: flex;
    justify-content: space-between;
    align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
 }
 
 .logo img {
@@ -63,6 +74,10 @@ nav {
   width: 600px;
 }
 
+.right-nav{
+  padding-right: 20px;
+}
+
 .flex-list-2{
     display: flex;
     width: 500px;
@@ -74,9 +89,11 @@ nav {
     border: none;
     padding: 13px 11px;
     font-size: 16px;
-    font-style: solid;
+    font-weight: bold;
+    color: black;
+    font-family: Helvetica, sans-serif;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 
@@ -101,17 +118,23 @@ row-gap: 48px;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 56px;
+    font-weight: 5000;
+    max-width: 1020px;
+    font-stretch: expanded;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .container-grid p{
-    font-size: 25px;
+    font-size: 20px;
 color: rgb(190, 177, 177);
 display: block;
 text-align: center;
 justify-self: center;
 line-height: 30px;
+padding-left: 20px;
+max-width: 850px;
 
 }
 
